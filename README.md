@@ -1,7 +1,6 @@
 # Code Magician
 
-<img src='./images/code-magician.png' width='64' height='64' />  
-<img src='./images/avatar.png' width='64' height='64' />
+<img src='./images/code-magician.png' width='64' height='64' />  <img src='./images/avatar.png' width='64' height='64' />
 
 ## Features
 
