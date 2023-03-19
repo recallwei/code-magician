@@ -1,0 +1,17 @@
+{
+  "vue-computed": {
+    "prefix": "vcomputed",
+    "body": ["computed(() => { $1 })"],
+    "description": "Vue 3 computed"
+  },
+  "vue-watch": {
+    "prefix": "vwatch",
+    "body": ["watch($1,($2) => { $3 })"],
+    "description": "Vue 3 watch"
+  },
+  "vue-watch-effect": {
+    "prefix": "vwatchEffect",
+    "body": ["watchEffect(() => {", "  $1", "})"],
+    "description": "Vue 3 watchEffect"
+  }
+}
