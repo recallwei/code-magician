@@ -2,6 +2,7 @@
 
 <img src='./images/code-magician.png' width='64' height='64' />  <img src='./images/avatar.png' width='64' height='64' />
 
+In the VSCode Extension Store, search _**`Code Magcian`**_.
 ## Features
 
 Some React or Vue related code snippets created by Bruce Song.
