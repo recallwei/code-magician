@@ -1,12 +1,12 @@
 # Code Magician
 
-![](images/code-magician.png\)
+![Code Magician](./images/code-magician.png)
 
 ## Features
 
 Some React or Vue related code snippets created by Bruce Song.
 
-![](images/avatar.png\)
+![Bruce Song](./images/avatar.png)
 
 ## Requirements
 
