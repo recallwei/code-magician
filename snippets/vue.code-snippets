@@ -1,0 +1,38 @@
+{
+  "vue-script-setup-js": {
+    "scope": "vue-html,javascript,css",
+    "prefix": "v-setup-js",
+    "body": ["<script setup>", "", "</script>", "", "<template>", "  <div>", "    <slot/>", "  </div>", "</template>"],
+    "description": "Vue 3 script setup with JavaScript"
+  },
+  "vue-script-setup-ts": {
+    "scope": "vue-html,javascript,css",
+    "prefix": "v-setup-ts",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "const props = defineProps<{",
+      "}>()",
+      "$1",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    <slot/>",
+      "  </div>",
+      "</template>"
+    ],
+    "description": "Vue 3 script setup with TypeScript"
+  },
+  "vue-computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "v-computed",
+    "body": ["computed(() => { $1 })"],
+    "description": "Vue 3 computed"
+  },
+  "vue-watch-effect": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "v-watchEffect",
+    "body": ["watchEffect(() => {", "  $1", "})"],
+    "description": "Vue 3 watchEffect"
+  }
+}

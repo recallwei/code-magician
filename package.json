@@ -1,0 +1,40 @@
+{
+  "name": "code-magician",
+  "displayName": "Code Magician",
+  "publisher": "BruceSong",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bruce Song",
+    "email": "recall4056@gmail.com",
+    "url": "https://github.com/recallwei"
+  },
+  "description": "Some React or Vue related code snippets created by Bruce Song.",
+  "icon": "images/code-magician.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recallwei/code-magician"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue.code-snippets"
+      }
+    ]
+  },
+  "license": "MIT"
+}
