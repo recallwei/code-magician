@@ -2,7 +2,7 @@
   "name": "code-magician",
   "displayName": "Code Magician",
   "publisher": "BruceSong",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Bruce Song",
     "email": "recall4056@gmail.com",
@@ -17,6 +17,13 @@
   "engines": {
     "vscode": "^1.76.0"
   },
+  "keywords": [
+    "React",
+    "Vue",
+    "JavaScript",
+    "TypeScript",
+    "Code Snippets"
+  ],
   "categories": [
     "Snippets"
   ],
@@ -27,14 +34,46 @@
         "path": "./snippets/javascript.code-snippets"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/react.code-snippets"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
         "language": "javascript",
-        "path": "./snippets/vue.code-snippets"
+        "path": "./snippets/vue-script.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue-template.code-snippets"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue-template.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-template.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package -o code-magician-$npm_package_version.vsix",
+    "install": "pnpm package && code --install-extension code-magician-$npm_package_version.vsix"
   },
   "license": "MIT"
 }

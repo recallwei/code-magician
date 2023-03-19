@@ -11,5 +11,5 @@
       "addWords": true
     }
   ],
-  "ignorePaths": ["./images/*", "README.md"]
+  "ignorePaths": ["./images/*", "README.md", "*.code-snippets"]
 }

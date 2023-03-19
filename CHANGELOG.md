@@ -1,6 +1,10 @@
 # Change Log
 
-## [Unreleased]
+## [0.0.2] - 2023-03-19
+
+### Changed
+
+- Adjust Vue snippets.
 
 ## [0.0.1] - 2023-03-19
 
