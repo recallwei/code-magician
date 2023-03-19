@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.3] - 2023-03-19
+
+- Adjust extension's description.
+
 ## [0.0.2] - 2023-03-19
 
 ### Changed

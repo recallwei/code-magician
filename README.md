@@ -49,6 +49,10 @@ Currently None.
 
 ## Release Notes
 
+### 0.0.3
+
+Adjust extension's description.
+
 ### 0.0.2
 
 Adjust Vue snippets.

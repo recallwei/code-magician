@@ -2,13 +2,13 @@
   "name": "code-magician",
   "displayName": "Code Magician",
   "publisher": "BruceSong",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Bruce Song",
     "email": "recall4056@gmail.com",
     "url": "https://github.com/recallwei"
   },
-  "description": "Some React or Vue related code snippets created by Bruce Song.",
+  "description": "Some React or Vue related code snippets.",
   "icon": "images/code-magician.png",
   "repository": {
     "type": "git",
@@ -72,8 +72,11 @@
     ]
   },
   "scripts": {
-    "package": "vsce package -o code-magician-$npm_package_version.vsix",
-    "install:ext": "pnpm package && code --install-extension code-magician-$npm_package_version.vsix"
+    "package:mac": "vsce package -o code-magician-$npm_package_version.vsix",
+    "install:ext:mac": "pnpm package:mac && code --install-extension code-magician-$npm_package_version.vsix",
+    "package:win": "vsce package -o code-magician-%npm_package_version%.vsix",
+    "install:ext:win": "pnpm package:win && code --install-extension code-magician-%npm_package_version%.vsix",
+    "release": "vsce publish"
   },
   "license": "MIT"
 }
