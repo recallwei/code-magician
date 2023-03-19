@@ -1,12 +1,11 @@
 # Code Magician
 
-![Code Magician](./images/code-magician.png)
+<img src='./images/code-magician.png' width='64' height='64' />  
+<img src='./images/avatar.png' width='64' height='64' />
 
 ## Features
 
 Some React or Vue related code snippets created by Bruce Song.
-
-![Bruce Song](./images/avatar.png)
 
 ## Requirements
 
