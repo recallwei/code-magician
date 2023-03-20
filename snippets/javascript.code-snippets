@@ -1,12 +1,12 @@
 {
-  "import": {
+  "Import Modules": {
     "prefix": "im",
-    "body": ["import { $1 } from '$2';"],
-    "description": "Import a module"
+    "body": ["import { $2 } from '$1'"],
+    "description": "Import modules"
   },
-  "export-all": {
+  "Export Modules": {
     "prefix": "ex",
-    "body": ["export * from '$2';"],
-    "description": "Export a module"
+    "body": ["export * from '$1'"],
+    "description": "Export modules"
   }
 }

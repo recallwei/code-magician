@@ -16,20 +16,20 @@ Easy and out of the box.
 
 ### JavaScript/TypeScript
 
-| Snippet | Purpose         |
-| ------- | --------------- |
-| `im`    | Import a module |
-| `ex`    | Export a module |
+| Snippet | Purpose        |
+| ------- | -------------- |
+| `im`    | Import modules |
+| `ex`    | Export modules |
 
 ### Vue Template
 
-| Snippet    | Purpose                            |
-| ---------- | ---------------------------------- |
-| `vsetupjs` | Vue 3 script setup with JavaScript |
-| `vsetupts` | Vue 3 script setup with TypeScript |
-| `vcss`     | Vue 3 style with CSS               |
-| `vscss`    | Vue 3 style with SCSS              |
-| `vless`    | Vue 3 style with LESS              |
+| Snippet | Purpose                            |
+| ------- | ---------------------------------- |
+| `vssj`  | Vue 3 script setup with JavaScript |
+| `vsst`  | Vue 3 script setup with TypeScript |
+| `vcss`  | Vue 3 style with CSS               |
+| `vscss` | Vue 3 style with SCSS              |
+| `vless` | Vue 3 style with LESS              |
 
 ### Vue Script
 
@@ -48,6 +48,10 @@ Easy and out of the box.
 Currently None.
 
 ## Release Notes
+
+### 0.0.4
+
+Make JavaScript/TypeScript import snippets easier to use.
 
 ### 0.0.3
 

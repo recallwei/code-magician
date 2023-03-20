@@ -1,6 +1,6 @@
 {
-  "vue-script-setup-js": {
-    "prefix": "vsetupjs",
+  "Vue Script Setup JavaScript": {
+    "prefix": "vssj",
     "body": [
       "<script setup>",
       "const props = defineProps()",
@@ -15,8 +15,8 @@
     ],
     "description": "Vue 3 script setup with JavaScript"
   },
-  "vue-script-setup-ts": {
-    "prefix": "vsetupts",
+  "Vue Script Setup TypeScript": {
+    "prefix": "vsst",
     "body": [
       "<script setup lang=\"ts\">",
       "const props = defineProps<{",
@@ -32,17 +32,17 @@
     ],
     "description": "Vue 3 script setup with TypeScript"
   },
-  "vue-style-css": {
+  "Vue Style CSS": {
     "prefix": "vcss",
     "body": ["<style scoped lang=\"css\">", "$1", "</style>"],
     "description": "Vue 3 style with CSS"
   },
-  "vue-style-scss": {
+  "Vue Style SCSS": {
     "prefix": "vscss",
     "body": ["<style scoped lang=\"scss\">", "$1", "</style>"],
     "description": "Vue 3 style with SCSS"
   },
-  "vue-style-less": {
+  "Vue Style LESS": {
     "prefix": "vless",
     "body": ["<style scoped lang=\"scss\">", "$1", "</style>"],
     "description": "Vue 3 style with LESS"
