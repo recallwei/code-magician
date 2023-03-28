@@ -2,8 +2,6 @@
 
 ## [0.0.4] - 2023-03-20
 
-### Changed
-
 - Changed: Make JavaScript/TypeScript import snippets easier to use.
 
 ## [0.0.3] - 2023-03-19
